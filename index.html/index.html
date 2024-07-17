@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Palstine</title>
+	<style >
+		html{
+			scroll-behavior: smooth;
+		}
+		#about{
+			background: linear-gradient(to right,red,green,blue,yellow);
+			background-clip: text;
+			color: transparent;
+			
+		}
+		
+		#form{
+			color: blue;
+			text-shadow: 1px 1px 1px yellow;
+		}
+		#google{
+			text-decoration:none;
+			color: white;
+			display: inline-block;
+			margin: 5%;
+			padding: 12px 34px;
+			border: 2px solid red;
+			 background-color: black;
+			 border-radius: 20px;
+		}
+       #google:hover{
+       	box-shadow: 2px 2px 20px blue;
+       	border: 2px dotted blue;
+       }
+      
+
+		#you{
+			text-decoration: none;
+			color: white;
+			padding: 12px 34px;
+			display: inline-block;
+			margin: 5%;
+			border: 2px solid rgb(19, 18, 18);
+			background-color: rgb(19, 18, 18);
+			border-radius: 20px;
+
+            transition: ease-in-out 0.4s;
+				}
+
+           #you:hover{
+           	box-shadow: 2px 2px 20px 5px red;
+           	border: 2px solid red;
+           }
+   
+      
+     #amaz{
+     	   color: blue;
+     	   background-color: black;
+     	   text-decoration: none;
+     	   margin: 5%;
+     	   padding: 10px 34px;
+     	   display: inline-block;
+     	   
+     }
+     #amaz:hover{
+
+
+           	box-shadow: 2px 2px 20px 5px red;
+           	border: 2px solid red;
+     }
+p{
+	
+	padding: 10px ;
+	margin: 20px;
+}
+
+		#google{
+			color: gray;
+		}
+		#image1{
+			box-shadow: 3px 3px 2px 2px green;
+		}
+		#logo{
+			box-shadow: 3px 3px 3px 3px red;
+		}
+		/*#about{
+			color: rgb(10, 200, 50);
+			background-color: gray;
+			width: fit-content;
+			border: 2px solid green;
+			font-family: cursive;
+			padding: 10px 10px 5px 5px;
+			text-shadow: 2px 3px 2px red;
+			transition: ease-in-out 0.4s;
+		}
+
+*/
+body{
+	background: radial-gradient(ellipse,gray,yellow,cyan,black);
+}
+
+
+		/*#about:hover{
+			
+              color: yellow;
+              background-color: blue;
+              box-shadow: 2px 2px 20px 5px black;
+              border: 2px solid red;
+		}*/
+
+.wrapper{
+	display: flex;
+	gap: 20px;
+	width: 100px;
+	overflow-x:scroll ;
+	scroll-snap-type: x mondatory;
+	margin: 50px;
+	background-color: rgba(100, 175, 190, 0.6);
+
+}
+.Card{
+	scroll-snap-align: center;
+	box-sizing: border-box;
+	padding: 20px 20px;
+	flex-shrink: 0;
+	width: 100px;
+	margin: 50px;
+	border-radius: 10px;
+	text-align: center;
+	background-color: white;
+}
+.class{
+	background-color: black;
+	width: fit-content;
+}
+
+
+
+
+
+
+		#para{
+			border: 1.5px dotted gray;
+
+		}
+
+		#author{
+			color: blue;
+		}
+		#background{
+			color: rgb(200, 180, 10);
+		}
+      #download{
+      	color: lightblue;
+      }
+      #download:hover{
+      	color: red;
+      }
+		
+
+
+
+
+
+		#good{
+			color: rgb(20, 110, 230);
+		}
+		#types{
+			color: rgb(40, 200, 110);
+			background-color: blue;
+			font-family: serif;
+			width: fit-content;
+			padding: 10px 10px 5px 5px;
+			border: 2px dotted red;
+			transition: ease-in-out 0.4s;
+		}
+		#types:hover{
+			color: white;
+			background-color: black;
+			transform: scale(1.2);
+		}
+
+		#abuse{
+			color: rgb(100, 20, 160);
+		}
+        #images{
+        	box-shadow: 2px 3px 2px 3px lightblue;
+        }
+        #auto{
+        	box-shadow: 2px 3px 2px 3px rgb(2, 10, 30);
+        }
+       #effect{
+       	color: rgb(40, 200, 110);
+			background-color: blue;
+			font-family: serif;
+			width: fit-content;
+			padding: 10px 10px 5px 5px;
+			border: 2px dotted red;
+			transition: ease-in-out 0.4s;
+       }
+       #effect:hover{
+       	color: white;
+			background-color: black;
+			transform: scale(1.2);
+		
+
+       }
+       #wow{
+       	color: brown;
+       	background-color: lightyellow;
+       	transition: ease-in-out 0.4s;
+       }
+       #wow:hover{
+       	color: black;
+       	background-color: lightblue;
+       }
+      #resources{
+      	color: rgb(40, 200, 110);
+			background-color: blue;
+			font-family: serif;
+			width: fit-content;
+			padding: 10px 10px 5px 5px;
+			border: 2px dotted red;
+			transition: ease-in-out 0.4s;
+       
+      }
+     #resources:hover{
+     	color: white;
+			background-color: black;
+			transform: scale(1.1);
+		
+     }
+
+
+#normal{
+	color: red;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: white;
+	font-weight: 200px;
+	font-family: cursive;
+}
+#small{
+	color: rgb(20, 110, 230);
+}
+
+#my{
+	color: darkred;
+	background-color: orange;
+	width: fit-content;
+}
+#strong{
+	color:white;
+	background-color: black;
+}
+.class
+{
+	color: white;
+}
+.chrome{
+	background: linear-gradient(to right,black,red);
+	background-clip: text;
+	color: transparent;
+
+}
+	</style>
+	<link rel="stylesheet" type="text/css" href="talha.CSS">
+</head>
+<body>
+	<header>
+		<div>
+			<img src="./logo.JPG" width="200"
+			height="auto" id="logo">
+		</div><br>
+		<nav id="nav">
+			<ul style="list-style-type: none; display: flex; gap:10px;">
+				<li><a href="#about" title="click">About</a></li>
+				<li><a href="#types" title="click">Types of Abuses</a></li>
+				<li><a href="#effect">Effects</a></li>
+				<li><a href="#resources">Resources</a></li>
+				<li><a href="#great">Personal Opinion</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div>
+			<h1 id="about">I am Syed Talha Ali Shah</h1>
+		</div>
+		<p id="para">Nice to meet you at this website. This website is all about Palastine and abuses that is start on the Palastine.This is my first website and i am 19 year old</p>
+		<br>
+		<p class="class"><strong>Here i discuss about :</strong></p>
+
+        <div class="wrapper">
+        	<div class="card">
+        		<p class="chrome"><a href="#background">Background of Palestine</a></p>
+        	</div>
+        	<div id="card">
+        		<p class="chrome"><a href="#good">Israel Become a state</a></p>
+        		
+        	</div>
+        	<div id="card">
+        		<p class="chrome"><a href="#types">Types of Abuses in Palestine</a></p>
+        		
+        	</div>
+        	<div id="card">
+        		<p class="chrome"><a href="#effect">Effects of Abuses</a></p>
+        	</div>
+        	<div id="card">
+        		<p class="chrome"><a href="#resources">Resources of war between palestine and Isreal</a></p>
+        	</div>
+        	<div id="card">
+        		<p class="chrome"><a href="#my">My personal Opinion</a></p>
+        	</div>
+        	<div id="card">
+        		<p class="chrome"><a href="#great">Share your Personal opinion</a></p>
+        	</div>
+        </div>
+
+
+
+<br>
+<p>If you want to Check videos click the following button....</p>
+
+
+
+		<a href="https://youtu.be/TP0m6P4jOos"><button title="click" id="you">Visit Youtube</button></a>
+	</main>
+	<article>
+		<h2 id="author">About Author</h2>
+		<p id="graph"><b><i>Mr.Syed Talha ali shah</i></b> belong from Pakistan and 19 year old. This is first website of Mr.Talha and in this website he discusses the abuses and resources of abuses on Palstine in detail and through this website he create awareness among the people to raise their words for Palastine.<mark>Mulana Rumi</mark> says that <mark>"<i>Raise your words not voice, it is rain that grows flower not Thunderstrom.</i>"</mark>I do not want that all the muslims country start qurall with Israel but raise their voices and UN should play thier role. </p>
+		<section>
+			<h2 id="author">Qualification</h2>
+			<p id="graph">Basically Mr.Talha is doing Computer System Engnieering from the <abbr title="University of engnieering and technalogy">UET</abbr>Peshawar.He done his Fsc from Governamnet college Peshwar and top that college.And done his matriculism from Arsalan Model School</p>
+
+		</section>
+
+	</article>
+
+<article>
+	<h2 id="background">Background Of Palestine</h2>
+	<p id="graph">
+		The word Palestine derives from ancient Greek (Philistia), but ancient Egyptian, Assyrian and Hebrew languages also included similar-sounding words to describe the region or its people. Judaism, Christianity and Islam are all strongly tied to the region, and trace origins to the land over the past few thousand years.
+
+Following the 1918 fall of the <b>Ottoman Empire</b> during World War I, Palestine typically referred to the region between the Mediterranean Sea and the Jordan River. Much of this land is now part of present-day Israel.
+
+Today, the region known as the Palestinian Territories includes the<mark> West Bank</mark> (a territory that sits between modern-day Israel and Jordan) and the Gaza Strip (bordering Israel and Egypt). These areas have been under Israeli military occupation since 1967. However, control over this region is a complex and evolving situation. There is no international consensus concerning the <i>borders—28</i> United Nations member countries currently do not recognize Israel at all—and many areas claimed by the Palestinian Territories are also claimed by Israel.
+	</p>
+	
+<figure style="list-style-type:;display: flex; gap:15px;">
+	<a href="https://www.welcometopalestine.com/destinations/hebron/"><img src="./image1.JFIF" id="image1" ></a>
+    
+	<img src="./image2.jfif" width="250" id="image1">
+
+</figure>
+<a href="./image1.JFIF" download id="download">Download the image1</a><br>
+<a href="./image2.JFIF" download id="download">Download the image2</a>
+
+
+
+		<section>
+		<h2 id="good">The partition of Palestine</h2>
+		<p id="graph">
+In 1947, after more than two decades of British rule, the United Nations proposed a plan to partition Palestine into two sections: an independent Jewish state and an independent Arab state. <i>The city of Jerusalem, which was claimed as a capital by both Jews and Palestinian Arabs, was to be an international territory with a special status.</i> 
+
+Most Jewish leaders accepted the plan, but many Palestinian Arabs—some of whom had been actively fighting British and Jewish interests in the region since the 1920s—vehemently opposed it.
+
+Some Arab leaders argued that they represented the majority of the population and should be granted more territory. They began to form volunteer armies throughout Palestine		</p>
+	</section>
+	<section>
+		<h2 id="good">Israel Becomes a state</h2>
+		<p id="graph">
+			In May 1948, less than a year after the Partition Plan for Palestine was introduced, Britain withdrew from Palestine and Israel declared itself an independent state, implying a willingness to implement the Partition Plan. 
+
+Almost immediately, neighboring Arab armies moved in to prevent the establishment of the Israeli state. The 1948 Arab-Israeli War that ensued involved Israel and five Arab nations—Transjordan (now Jordan), Iraq, Syria, Egypt and Lebanon. By the war's end in July 1949, Israel controlled more than two-thirds of the former British Mandate, while Jordan took control of the West Bank and Egypt took control of the Gaza Strip.
+
+The 1948 conflict opened a new chapter in the struggle between Israeli Jews and Palestinian Arabs, which now became a regional contest involving nation-states and a tangle of diplomatic, political and economic interests.
+<br>		</p>
+<hr>
+	<p>If you want to check Palestine map click on below button</p>
+
+
+      <a href="https://www.google.com/maps/@31.5016946,34.4668445,14z?entry=ttu"><button title="Palestinian" id="google">Click here Goto Google map</button></a>
+
+	</section>
+</hr>
+</article>
+<article>
+	<section>
+		<h4 style="color: red;">Why Israel attack on Palestine ?</h4>
+		<p style="border: 1px solid lightblue; padding: 10px;" >Since Hamas led an attack on southern Israel on October 7, in which 1,139 people were killed and 250 were taken captive, Israel has consistently bombarded Gaza. Israel claims its objective is to “dismantle Hamas” despite scepticism from experts, allies, and members of Israel's administration about its feasibility.</p>
+		<a href="https://www.aljazeera.com/news/2024/7/11/israels-attacks-on-gaza-a-guide" style="color:blue;"><button id="amaz">Click here goto another website</button></a>
+	</section>
+</article>
+<hr>
+<article>
+		<h2 id="types">Types of Abuses</h2>
+		<p id="graph">
+			<h3 id="abuse">Sexual abuse and sexualised torture of boys and men</h3>
+A June 2024 report by the Independent International Commission of Inquiry on the Occupied Palestinian Territory stated both Israel and Hamas had committed sexual violence and torture, along with intentional attacks on civilians.
+<br>For more information click below button<br>
+			<a href="https://en.wikipedia.org/wiki/Sexual_and_gender-based_violence_against_Palestinians_during_the_Israel%E2%80%93Hamas_war"><button>Click me!</button></a>
+		</p>
+		<h3 id="abuse">Human rights</h3>
+		<p id="graph">Reports of human rights violations against Palestinians by Israel include reports of illegal or random killings, random or unwarranted detention (both of Palestinians in Israel and the occupied territories) restrictions on Palestinians residing in Jerusalem including random or illegal interference with privacy, family.
+</p>
+<figure style="list-style-type:;display: flex; gap:10px;">
+	<img src="./image6.JPEG" width="250" height="auto" id="images">
+	<img src="./image4.JFIF" width="250" height="auto" id="images">
+	<!--<img src="./image5.JFIF" width="250" height="auto">-->
+</figure>
+<h3 id="abuse">Social Abuse</h3>
+<p id="graph">
+	Challenge. Growing rates of poverty and unemployment in the State of Palestine have made it increasingly difficult for many Palestinians to maintain minimum standards of living, with many people unable to afford basic commodities, including food, clothing and housing.
+
+</p>
+<figure style="list-style-type:;display:flex; gap:10px;">
+	<img src="./image7.JFIF" width="250" height="auto" id="auto">
+	<img src="./image8.JFIF" width="250" height="auto" id="auto">
+</figure>
+
+	</article>
+	<article>
+		<section>
+			<h2 id="effect">Effects of Abuses</h2>
+			<p id="graph">
+				
+				<b>The war in Palestine and Israel has destroyed and imperiled the lives and the mental and physical health of Palestinians, Israelis, and others in the region.</b> We express deep compassion for all those who are suffering as well as alarm for the future psychological and behavioral consequences that will affect the people caught in this conflict. The magnitude of death, destruction, and violence threatens to destabilize the region and has sent shock waves around the world, affecting many of us in our own communities.<br>
+
+<i id="para"><mark>Recognizing the potential for tensions abroad to affect relationships among healthcare professionals in the United States and internationally, we urge professional societies to be true to their healing missions and support their members by opposing stigmatization of professionals based on their personal opinions or heritage.</mark></i>
+<br>
+The people of Palestine and Israel are suffering from war injuries and death. Tens of thousands of Gazans have died from lack of access to food, water, and healthcare. Israelis bear the anguish of having loved ones killed or held hostage. War traumas shake the foundation of a child’s current and future emotional, psychological, and cognitive development with implications for their self-concept and relationships with others. The effects of this war will undoubtedly be felt for generations.<br> <mark>All sides in this conflict desperately need safety, freedom from violence, and restoration of all components of civil society that will enable them to repair their lives and forge a brighter future.</mark>
+<br>
+
+We call upon mental health professionals to do all that they can to bring an end to this war as soon as possible and to support, through volunteerism, activism, leadership, and education, the recovery of war survivors and the healing of those with secondary trauma acquired while doing relief work in Gaza, Palestine, and Israel.
+
+Forging a sustainable, equitable peace, and rebuilding what has been destroyed are daunting challenges. Mental health professionals can contribute their expertise regarding best practices in caring for those who have been displaced, injured, or traumatized. We can also help people deal with challenging emotions that are naturally aroused and inflamed by war, but that must be adaptively channeled for people to make peace, and eventually cooperate in the rebuilding and healing that must be done for all. Psychiatrists can also offer insights and relatedness to understand and contain suffering, while amplifying shared humanity and the possibilities of peace, healing, and cultural repair.
+
+This crisis underscores the pressing needs of our interdependent world. We must move from anguish and conflict to deeper understanding, compassion, and goodwill.
+
+			</p>
+			<a href="https://www.hrw.org/middle-east/north-africa/israel/palestine" title="Click here"><button  id="wow">Click me!</button></a>
+
+			
+		</section>
+	</article>
+	<hr>
+	<h4 style="color:brown;">For Palestine</h4>
+		<audio controls loop autoplay>
+			<source src="./Recording.m4a">
+		</audio>
+
+	</hr>
+	<hr>
+		<h3 style="color:white;background-color: black;width: fit-content;">Death Ratios in Palestine😢😢😢😢</h3>
+		
+			<label for="Child">Child (30%) : </label>
+			<progress value="30" max="100">Child</progress>
+		<div>
+			<label for="Women">Women (52%) : </label>
+			<progress value="52" max="100">Women: </progress>
+
+		</div>
+		<div>
+			
+			<label >Men (50%) : </label>
+			<progress value="50" max="100">
+		</div>
+		<div>
+			<label>Old people (40%) :</label><span>
+			<progress value="40" max="100"></progress>
+
+		</div>
+		<div>
+			<label>Total (75%) : </label>
+			<progress value="75" max="100"></progress>
+		</div>
+		
+           
+
+
+
+	</hr>
+
+<hr>
+	<article>
+		<section>
+			<h2 id="resources">Resources of war between Palestine and Israel</h2>
+			<p id="graph">
+				<h3 id="normal">Teeeitory and Land</h3>
+				<h4 id="small">Disputed Territories:</h4>
+				The conflict primarily revolves around land, specifically the territories of the West Bank, Gaza Strip, and East Jerusalem. Both Israelis and Palestinians claim historical and religious connections to these areas, leading to disputes over ownership and control.
+				
+				<h3 id="normal">Water Resources</h3>
+				<h4 id="small">Access to Water:</h4>
+				Water scarcity is a significant issue in the region, and access to water resources, such as the Jordan River and underground aquifers, is a point of contention. Both Israelis and Palestinians require access to these resources for agriculture, 
+				industry, and domestic use.
+
+               <h3 id="normal">Military and Security:
+
+</h3>
+<h4 id="small">Military Capabilities:</h4>
+        Both Israel and Palestinian groups (such as Hamas in Gaza) maintain armed forces and security measures. Israel, as a state, has a sophisticated military with advanced weaponry, while Palestinian groups often rely on guerrilla tactics and asymmetric warfare.
+
+<h3 id="normal">International Support and Diplomacy:</h3>
+
+<h4 id="small">International Relations:</h4>
+
+Both sides seek diplomatic and political support from various countries and international organizations. Israel historically receives strong support from the United States and other Western countries, while Palestinians receive support from Arab nations and some non-aligned states.
+
+
+<h3 id="normal">Humanitarian Aid and Economic Support:
+
+</h3>
+
+<h4 id="small">Humanitarian Assistance:</h4>
+ The conflict has led to humanitarian crises, particularly in Gaza, where economic conditions are dire due to blockades and restrictions on movement. Humanitarian aid from international organizations is crucial for alleviating suffering and supporting basic needs.
+
+ <h3 id="normal">Media and Information Warfare:
+
+</h3>
+<h4 id="small">Propaganda and Information:</h4>
+Both sides engage in media and information campaigns to influence public opinion and international perception of the conflict. This includes social media, traditional media outlets, and advocacy groups
+
+<h3 id="normal">Religious and Cultural Resources:</h3>
+<h4 id="small">Religious Sites:</h4>
+
+The region is home to significant religious sites sacred to Jews, Muslims, and Christians. Disputes over access and control of these sites, such as the Temple Mount/Haram al-Sharif in Jerusalem, often inflame tensions and spark violence.
+
+
+
+<h3 id="normal">Political and Governance Structures:</h3>
+<h4 id="small">Government and Governance:</h4>
+
+Israel is a sovereign state with a democratically elected government. The Palestinian territories are governed by the Palestinian Authority in the West Bank and Hamas in Gaza, each with its own political challenges and aspirations.
+
+<h3 id="normal">Historical Narratives and Identity:</h3>
+<h4 id="small">Narratives and Identity:</h4>
+Historical narratives and collective identities play a crucial role in shaping perceptions and attitudes towards the conflict. Both Israelis and Palestinians have deep-seated historical grievances and claims to the land.
+
+
+<h3 id="normal">External Influences and Interests:
+
+</h3>
+<h4 id="small">Regional Dynamics:</h4>
+
+ The broader Middle East region, including neighboring countries like Egypt, Jordan, and Lebanon, as well as regional powers like Iran and Saudi Arabia, also play roles in the conflict, sometimes exacerbating tensions or seeking to mediate.
+
+ <h3 id="normal">Conclusion</h3>
+ Understanding these various resources helps to contextualize the complexity and longevity of the Israeli-Palestinian conflict. Resolving the conflict involves addressing these multiple dimensions, including territorial disputes, resource management, security concerns, political aspirations, and humanitarian needs.
+
+
+
+
+
+
+
+			</p>
+		</section>
+	</article>
+</hr>
+
+
+<hr>
+	
+<article>
+	<section>
+		<h3 id="my">My opinion</h3>
+		<p id="graph"><i>To stop war between palestine and Israel so i share my personal opinion below:</i>
+        <br><br>
+       <strong id="strong"> <u>Negotiation and Dialogue:</u></strong> and Dialogue: Encouraging both sides to engage in direct, meaningful dialogue with the goal of finding common ground and mutually acceptable solutions.
+    <br>     <br>
+<strong id="strong"><u>International Mediation:</u></strong> Involving neutral third-party mediators or international organizations to facilitate negotiations and provide a framework for peace talks.<br>
+<br>
+<strong id="strong"><u>Addressing Core Issues:</u></strong> Addressing the core issues of the conflict, such as borders, settlements, refugees, and security concerns, through negotiations and compromise.<br>
+<br>
+<strong id="strong"><u>Building Trust and Understanding:</u></strong> Promoting initiatives that foster mutual understanding, respect, and trust between Israelis and Palestinians, including people-to-people exchanges, educational programs, and cultural exchanges.
+<br><br>
+<strong id="strong"><u>Humanitarian Assistance:</u></strong> Providing humanitarian aid and support to alleviate the suffering of affected populations, which can help create a conducive environment for peace efforts.<br><br>
+
+<strong id="strong"><u>International Pressure:</u></strong> Utilizing diplomatic efforts and international pressure to encourage both parties to commit to peaceful resolutions and adhere to international law.<br><br>
+
+<strong id="strong"><u>Long-Term Vision:</u></strong> Developing a long-term vision for coexistence and peacebuilding that includes economic development, infrastructure projects, and joint ventures that benefit both Israelis and Palestinians. Encouraging both sides to engage in direct, meaningful dialogue with the goal of finding common ground and mutually acceptable solutions.
+<br><br>
+<strong id="strong"><u>International Mediation:</u></strong> Involving neutral third-party mediators or international organizations to facilitate negotiations and provide a framework for peace talks.
+<br><br>
+<strong id="strong"><u>Addressing Core Issues:</u></strong> Addressing the core issues of the conflict, such as borders, settlements, refugees, and security concerns, through negotiations and compromise.
+<br><br>
+
+
+        
+
+		</p>
+	</section>
+</article>
+
+</hr>
+
+<hr>
+	
+<fieldset id="great">
+	<legend style="color:orange;">Share your Personal Opinion</legend>
+	<form id="form">
+
+	<label>Name: </label>
+	<input type="text" name="name" placeholder="Enter your name" required ><br><br>
+
+	<label>Country Name: </label>
+
+   <input type="text" name="country"list="countries" placeholder="Enter Country name" required>   
+    <datalist id="countries">
+    <option>Palestine</option>
+    <option value="Afghanistan">Afghanistan</option>
+<option value="Argentina">Argentina</option>
+<option value="Australia">Australia</option>
+<option value="Austria">Austria</option>
+<option value="Bangladesh">Bangladesh</option>
+<option value="Brazil">Brazil</option>
+<option value="Canada">Canada</option>
+<option value="Chile">Chile</option>
+<option value="China">China</option>
+<option value="Colombia">Colombia</option>
+<option value="Cuba">Cuba</option>
+<option value="Denmark">Denmark</option>
+<option value="Egypt">Egypt</option>
+<option value="Ethiopia">Ethiopia</option>
+<option value="France">France</option>
+<option value="Germany">Germany</option>
+<option value="Greece">Greece</option>
+<option value="America">America</option>
+<option value="England"></option>
+<option value="India">India</option>
+<option value="Indonesia">Indonesia</option>
+<option value="Iran">Iran</option>
+<option value="Iraq">Iraq</option>
+<option value="Ireland">Ireland</option>
+<option value="Israel">Israel</option>
+<option value="Italy">Italy</option>
+<option value="Japan">Japan</option>
+<option value="Jordan">Jordan</option>
+<option value="Kenya">Kenya</option>
+<option value="Malaysia">Malaysia</option>
+<option value="Mexico">Mexico</option>
+<option value="Morocco">Morocco</option>
+<option value="Netherlands">Netherlands</option>
+<option value="New Zealand">New Zealand</option>
+<option value="Nigeria">Nigeria</option>
+<option value="Norway">Norway</option>
+<option value="Pakistan">Pakistan</option>
+<option value="Peru">Peru</option>
+<option value="Philippines">Philippines</option>
+<option value="Poland">Poland</option>
+<option value="Portugal">Portugal</option>
+<option value="Russia">Russia</option>
+<option value="Saudi Arabia">Saudi Arabia</option>
+<option value="South Africa">South Africa</option>
+<option value="South Korea">South Korea</option>
+<option value="Spain">Spain</option>
+<option value="Sri Lanka">Sri Lanka</option>
+<option value="Sweden">Sweden</option>
+<option value="Switzerland">Switzerland</option>
+<option value="Thailand">Thailand</option>
+<option value="Turkey">Turkey</option>
+<option value="Ukraine">Ukraine</option>
+<option value="United Arab Emirates">United Arab Emirates</option>
+<option value="United Kingdom">United Kingdom</option>
+<option value="United States">United States</option>
+<option value="Venezuela">Venezuela</option>
+<option value="Vietnam">Vietnam</option>
+<option value="Yemen">Yemen</option>
+<option value="Zimbabwe">Zimbabwe</option>
+
+
+
+
+
+    </datalist>
+    <br><br>
+
+	<label>Opinion: </label><br>
+	<textarea rows="10" cols="30" placeholder="Enter your opinion" required></textarea><br><br>
+	
+	<input type="submit" value="submit">
+</form>
+
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+</hr>
+
+
+
+
+
+</body>
+</html>
